@@ -11,6 +11,7 @@
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/cb/TownSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cb/TownSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dev/cb/TownSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/cb/TownSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2.executor": "Run",
+    "JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -52,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va">
     <configuration name="TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="formation-tdd-exo01" />
       <extension name="coverage">
@@ -69,8 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="formation-tdd-exo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.cb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.cb" />
+      <option name="MAIN_CLASS_NAME" value="dev.cb.TownSearchTest" />
+      <option name="METHOD_NAME" value="towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va" />
         <item itemvalue="JUnit.TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2" />
       </list>
     </recent_temporary>
@@ -92,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719925261322</updated>
       <workItem from="1719925262424" duration="120000" />
-      <workItem from="1719925430583" duration="3296000" />
+      <workItem from="1719925430583" duration="4759000" />
     </task>
     <servers />
   </component>
