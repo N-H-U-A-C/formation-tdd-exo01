@@ -57,4 +57,17 @@ public class TownSearchTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    public void towns_Should_Contain_Budapest_When_Criteria_Is_Ape() {
+        // given
+        criteria = "ape";
+        List<String> expected = Arrays.asList("Budapest");
+
+        // when
+        List<String> result = classUnderTest.search(criteria);
+
+        // then
+        assertThat(result).isEqualTo(expected);
+    }
+
 }

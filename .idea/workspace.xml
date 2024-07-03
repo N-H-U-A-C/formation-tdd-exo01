@@ -31,24 +31,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/IntelliJ/formation-unit-tests-exos&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TownSearchTest.should_Be_Case_Insensitive.executor": "Run",
+    "JUnit.TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2.executor": "Run",
+    "JUnit.TownSearchTest.towns_Should_Contain_Budapest_When_Criteria_Is_Ape.executor": "Run",
+    "JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Workspace/IntelliJ/formation-unit-tests-exos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.TownSearchTest.should_Be_Case_Insensitive">
+}]]></component>
+  <component name="RunManager" selected="JUnit.TownSearchTest.towns_Should_Contain_Budapest_When_Criteria_Is_Ape">
     <configuration name="TownSearchTest.should_Be_Case_Insensitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="formation-tdd-exo01" />
       <extension name="coverage">
@@ -81,6 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TownSearchTest.towns_Should_Contain_Budapest_When_Criteria_Is_Ape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="formation-tdd-exo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.cb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.cb" />
+      <option name="MAIN_CLASS_NAME" value="dev.cb.TownSearchTest" />
+      <option name="METHOD_NAME" value="towns_Should_Contain_Budapest_When_Criteria_Is_Ape" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="formation-tdd-exo01" />
       <extension name="coverage">
@@ -99,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TownSearchTest.towns_Should_Contain_Budapest_When_Criteria_Is_Ape" />
         <item itemvalue="JUnit.TownSearchTest.should_Be_Case_Insensitive" />
         <item itemvalue="JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va" />
         <item itemvalue="JUnit.TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2" />
@@ -123,7 +142,7 @@
       <updated>1719925261322</updated>
       <workItem from="1719925262424" duration="120000" />
       <workItem from="1719925430583" duration="4863000" />
-      <workItem from="1719990207164" duration="1469000" />
+      <workItem from="1719990207164" duration="2010000" />
     </task>
     <servers />
   </component>
