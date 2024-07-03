@@ -17,7 +17,7 @@ public class TownSearch {
         if (criteria.length() < 2) {
             throw new NotFoundException("test");
         } else {
-            return towns.stream().filter((t) -> t.contains(criteria)).toList();
+            return towns.stream().filter((t) -> t.toLowerCase().contains(criteria.toLowerCase())).toList();
         }
     }
 }

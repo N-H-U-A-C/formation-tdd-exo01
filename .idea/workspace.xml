@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7907a84f-a7c2-4f67-b2c6-68b784dbbe52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/cb/TownSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/cb/TownSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dev/cb/TownSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/cb/TownSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va">
+  <component name="RunManager" selected="JUnit.TownSearchTest.should_Be_Case_Insensitive">
+    <configuration name="TownSearchTest.should_Be_Case_Insensitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="formation-tdd-exo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.cb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.cb" />
+      <option name="MAIN_CLASS_NAME" value="dev.cb.TownSearchTest" />
+      <option name="METHOD_NAME" value="should_Be_Case_Insensitive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="formation-tdd-exo01" />
       <extension name="coverage">
@@ -85,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TownSearchTest.should_Be_Case_Insensitive" />
         <item itemvalue="JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va" />
         <item itemvalue="JUnit.TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2" />
       </list>
@@ -108,7 +123,7 @@
       <updated>1719925261322</updated>
       <workItem from="1719925262424" duration="120000" />
       <workItem from="1719925430583" duration="4863000" />
-      <workItem from="1719990207164" duration="1053000" />
+      <workItem from="1719990207164" duration="1469000" />
     </task>
     <servers />
   </component>

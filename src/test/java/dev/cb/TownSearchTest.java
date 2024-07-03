@@ -43,4 +43,18 @@ public class TownSearchTest {
         // then
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    public void should_Be_Case_Insensitive() {
+        // given
+        criteria = "VA";
+        List<String> expected = Arrays.asList("Valence", "Vancouver");
+
+        // when
+        List<String> result = classUnderTest.search(criteria);
+
+        // then
+        assertThat(result).isEqualTo(expected);
+    }
+
 }
