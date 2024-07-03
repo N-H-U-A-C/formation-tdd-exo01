@@ -14,7 +14,10 @@ public class TownSearch {
     }
 
     public List<String> search(String criteria) {
-        if (criteria.length() < 2) throw new NotFoundException("test");
-        return towns;
+        if (criteria.length() < 2) {
+            throw new NotFoundException("test");
+        } else {
+            return towns.stream().filter((t) -> t.contains(criteria)).toList();
+        }
     }
 }

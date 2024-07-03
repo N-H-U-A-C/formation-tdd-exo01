@@ -41,6 +41,6 @@ public class TownSearchTest {
         List<String> result = classUnderTest.search(criteria);
 
         // then
-        assertThat(result.contains(expected)).isTrue();
+        assertThat(result).isEqualTo(expected);
     }
 }
