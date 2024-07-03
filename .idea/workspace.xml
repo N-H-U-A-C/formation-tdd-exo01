@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7907a84f-a7c2-4f67-b2c6-68b784dbbe52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dev/cb/TownSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/cb/TownSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "N-H-U-A-C"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/N-H-U-A-C/formation-tdd-exo01.git",
+    "accountId": "a37e842f-fc52-4a76-96c6-f8c4a931a67b"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -34,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.TownSearchTest.should_Be_Case_Insensitive.executor": "Run",
+    "JUnit.TownSearchTest.should_Return_All_Towns_When_Criteria_Is_An_Asterisk.executor": "Run",
     "JUnit.TownSearchTest.should_Throw_Not_Found_Exception_When_Criteria_Size_Is_2.executor": "Run",
     "JUnit.TownSearchTest.towns_Should_Contain_Budapest_When_Criteria_Is_Ape.executor": "Run",
     "JUnit.TownSearchTest.towns_Should_Contain_Valence_And_Vancouver_When_Criteria_Is_Va.executor": "Run",
@@ -159,7 +173,7 @@
       <updated>1719925261322</updated>
       <workItem from="1719925262424" duration="120000" />
       <workItem from="1719925430583" duration="4863000" />
-      <workItem from="1719990207164" duration="2010000" />
+      <workItem from="1719990207164" duration="3432000" />
     </task>
     <servers />
   </component>
