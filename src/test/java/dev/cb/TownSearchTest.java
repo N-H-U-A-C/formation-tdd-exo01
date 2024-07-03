@@ -70,4 +70,16 @@ public class TownSearchTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    public void should_Return_All_Towns_When_Criteria_Is_An_Asterisk() {
+        // given
+        criteria = "*";
+        List<String> expected = Arrays.asList("Paris", "Budapest", "Skopje", "Rotterdam", "Valence", "Vancouver", "Amsterdam", "Vienne", "Sydney", "New York", "Londres", "Bangkok", "Hong Kong", "Dubaï", "Rome", "Istanbul");
+
+        // when
+        List<String> result = classUnderTest.search(criteria);
+
+        // then
+        assertThat(result).isEqualTo(expected);
+    }
 }

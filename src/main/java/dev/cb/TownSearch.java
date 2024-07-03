@@ -14,7 +14,9 @@ public class TownSearch {
     }
 
     public List<String> search(String criteria) {
-        if (criteria.length() < 2) {
+        if (criteria.equals("*")) {
+            return towns;
+        } else if (criteria.length() < 2) {
             throw new NotFoundException("test");
         } else {
             return towns.stream().filter((t) -> t.toLowerCase().contains(criteria.toLowerCase())).toList();
