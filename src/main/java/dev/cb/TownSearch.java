@@ -1,8 +1,5 @@
 package dev.cb;
 
-import jdk.jshell.spi.ExecutionControl;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,7 +14,7 @@ public class TownSearch {
         if (criteria.equals("*")) {
             return towns;
         } else if (criteria.length() < 2) {
-            throw new NotFoundException("test");
+            throw new NotFoundException("Criteria must be at least 2 characters");
         } else {
             return towns.stream().filter((t) -> t.toLowerCase().contains(criteria.toLowerCase())).toList();
         }
